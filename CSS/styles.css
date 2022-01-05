@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/longmont-CO.jpg') no-repeat top center ;
+  background: url('../images/longmont-CO.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -205,3 +205,23 @@ a.social:hover {
 
 }
 
+/* Experience page css */
+
+.hero {
+  background:  url('../images/dots.jpeg');
+  color: #fff;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-exp {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: gray;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
